@@ -1,0 +1,2 @@
+# aomori
+SDGs14aomoriver
