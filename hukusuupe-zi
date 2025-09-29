@@ -1,0 +1,274 @@
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+header {
+  background: linear-gradient(90deg, #005f73, #0a9396);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+nav a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+section {
+  padding: 3rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #005f73;
+  border-left: 6px solid #0a9396;
+  padding-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+section img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+footer {
+  background: #005f73;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青森の海を未来へ ― ホーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>ホーム</h2>
+    <img src="https://images.unsplash.com/photo-1602002418816-44d38e250c91?auto=format&fit=crop&w=1200&q=80" alt="青森の漁港">
+    <p>青森県は、豊かな海の恵みとともに歩んできた地域です。ホタテ、マグロ、イカ、サケなど、全国的にも知られる水産資源は、県民の食卓を支えるだけでなく、国内外への輸出によって地域経済を大きく支えてきました。</p>
+    <p>しかし、資源量の減少、漁業者の高齢化と後継者不足、気候変動、海洋ごみなど、課題は深刻です。国連のSDGs14「海の豊かさを守ろう」を指針に、青森の海を未来へとつないでいきましょう。</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青森の海 ― 現状と課題</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>青森県漁業の現状と課題</h2>
+    <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1200&q=80" alt="漁業の課題">
+    <ul>
+      <li><b>水産資源の減少：</b> イカやサンマの漁獲量が減少。海水温の変化で漁場が移動しています。</li>
+      <li><b>漁師の高齢化と後継者不足：</b> 漁業従事者の平均年齢は60歳を超えています。</li>
+      <li><b>海洋ごみ問題：</b> プラスチックごみや放置漁具が生態系と漁場を脅かしています。</li>
+      <li><b>気候変動の影響：</b> 海水温上昇や赤潮によりホタテが大量死する被害が発生しています。</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDGs14と青森の海</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>SDGs14と青森の海</h2>
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="SDGsと海">
+    <ul>
+      <li><b>14.1 海洋汚染の防止：</b> 漁業者によるごみ回収活動。</li>
+      <li><b>14.2 生態系の保全：</b> 森・川・海の連携保全。</li>
+      <li><b>14.4 持続可能な漁業：</b> 漁獲制限や稚魚放流。</li>
+      <li><b>14.5 海域の保護：</b> 産卵場や育成場の保全活動。</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>解決への取り組み</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>解決に向けた取り組み</h2>
+    <img src="https://images.unsplash.com/photo-1523430410476-0185cb1f6f3d?auto=format&fit=crop&w=1200&q=80" alt="漁業の取り組み">
+    <ul>
+      <li><b>資源管理型漁業：</b> 稚魚放流や禁漁期設定。</li>
+      <li><b>持続可能な養殖業：</b> 環境負荷を抑えたホタテやサーモン養殖。</li>
+      <li><b>スマート漁業：</b> ICTやAIで効率的漁業。</li>
+      <li><b>若手漁師の育成：</b> 研修や支援制度。</li>
+      <li><b>地域ブランド化：</b> 「SDGs対応漁業」で付加価値を高める。</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私たちにできること</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>私たちにできること</h2>
+    <img src="https://images.unsplash.com/photo-1508182311256-e3f7d4df89a6?auto=format&fit=crop&w=1200&q=80" alt="市民の行動">
+    <ul>
+      <li>地元の水産物を選んで消費する</li>
+      <li>プラスチックごみを減らす</li>
+      <li>持続可能な商品や活動を応援する</li>
+      <li>観光や生活の中で海を大切にする行動を広める</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>まとめ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>青森の海を未来へ ― SDGs14とともに</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="issues.html">現状と課題</a>
+      <a href="sdgs.html">SDGs14と青森</a>
+      <a href="solutions.html">解決への取り組み</a>
+      <a href="action.html">私たちにできること</a>
+      <a href="summary.html">まとめ</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>まとめ</h2>
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80" alt="未来へつなぐ">
+    <p>青森の海は長い歴史の中で人々の暮らしを支えてきました。その豊かさを守り、未来の世代に引き継ぐことは私たちの責任です。SDGs14はそのための道しるべとなります。</p>
+    <p>一人ひとりの行動が未来を変える。共に青森の海を未来へつなげていきましょう。</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 青森県漁業とSDGs14 ウェブサイト</p>
+  </footer>
+</body>
+</html>
